@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Такси Каприз</title>
+    <meta name="title" content="Такси Каприз" />
+    <meta name="description" content="Сервис заказа такси 'Каприз' в г.Валуйки" />
+    <!--  favicon -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <!-- mobile-nav -->
+    <div class="mobile-nav-panel">
+      <div class="mobile-nav-decor"><img src="./img/decoration/blot.svg" alt="" /></div>
+      <div class="mobile-nav-decor-top"><img src="./img/decoration/blot.svg" alt="" /></div>
+      <div class="mobile-nav-decor-right"><img src="./img/decoration/blot.svg" alt="" /></div>
+      <nav class="mobile-menu">
+        <a href="#abuot">О нас</a> <a href="#advantages">Преимущества</a> <a href="#order">Заказать</a>
+        <a href="#download">Скачать</a> <a href="tel:+79045323244">Вакансии</a> <a href="#contact">Контакты</a>
+      </nav>
+    </div>
+    <!-- End mobile-nav --><!-- Header -->
+    <header class="header" style="background-color: #ffc61a; background-image: url(./img/header-img/header_bg.png)">
+      <div class="container">
+        <div class="header__top-row">
+          <a href="#" class="header__logo"><img src="./img/header-img/header-logo.png" alt="" /></a>
+          <ul class="menu">
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#advantages">Преимущества</a></li>
+            <li><a href="#order">Заказать</a></li>
+            <li><a href="#download">Скачать</a></li>
+            <li><a href="tel:+79045323244">Вакансии</a></li>
+            <li><a href="#contact">Контакты</a></li>
+          </ul>
+          <button type="button" class="mobile-nav-btn"><span class="mobile-nav-icon"></span></button>
+        </div>
+        <div class="header__content-row">
+          <h1 class="header__title">
+            <p class="header-title"><span class="color-text">К</span>априз<br /></p>
+            <span class="color-text">Р</span>одное такси для <span class="color-text">Р</span>одного города<br />
+          </h1>
+          <!-- <h1 class="header__title"><span class="color-text">З</span>аказать <span class="color-text">с</span>ейчас</h1> -->
+          <div class="header__order-wrapper">
+            <a href="tel:+74723625111" class="order-btn">по городу</a>
+            <a href="tel:+74723625111" class="order-btn">межгород</a
+            ><!-- <a href="#">+7(47236)25-111</a> -->
+          </div>
+          <div class="header__content-img"><img src="./img/header-img/two-car.png" alt="" /></div>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+    <main>
+      <section class="order" style="background-color: #ffc61a" id="order">
+        <div class="container">
+          <div class="order__wrapper">
+            <div class="order__inner-left">
+              <h2 class="order__title"><span class="color-text">Т</span>акси</h2>
+              <div class="order__subtitle"><span class="color-text">К</span>априз</div>
+              <div class="order__motto"><span class="color-text">В</span>нужное время - в нужном месте!</div>
+              <ul class="order__promo">
+                <li>
+                  <span class="color-text">АКЦИЯ</span>— скидка <span class="color-text">50% </span>на обратную дорогу.
+                </li>
+                <li><span class="color-text">О</span>жидание 10 минут бесплатно.</li>
+                <li><span class="color-text">П</span>ассажирские перевозки в любую точку России!</li>
+              </ul>
+              <div class="order__inner-btn">
+                <a href="tel:+74723625111" class="previously-btn">предварительный<br />заказ </a
+                ><a href="#download" class="download-btn">скачать<br />приложение</a>
+              </div>
+            </div>
+            <div class="order__inner-right">
+              <form action="#" class="form order-form">
+                <h2 class="form__title">
+                  <span class="color-text">З</span>аказать <span class="color-text">Т</span>акси
+                </h2>
+                <input
+                  type="text"
+                  class="form-input"
+                  name="departure"
+                  id="departure "
+                  placeholder="Пункт отправления"
+                />
+                <input
+                  type="text"
+                  class="form-input"
+                  name="destination"
+                  id="destination "
+                  placeholder="Пункт назначения"
+                />
+                <input
+                  type="text"
+                  class="form-input"
+                  name="number-people"
+                  id="number-people"
+                  placeholder="Кол-во пассажиров"
+                />
+                <input type="text" class="form-input" name="phone" id="phone" placeholder="Телефон" />
+                <button class="form-btn">заказать</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="advantages" id="advantages">
+        <div class="conatiner">
+          <h2 class="advantages__title"><span class="color-text">П</span>реимущества</h2>
+          <div class="advantages__wrapper">
+            <div class="advantages__item">
+              <div class="advantages__item-img"><img src="./img/advantages/car.svg" alt="" /></div>
+              <div class="advantages__text">Быстрая подача автомобиля</div>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__item-img"><img src="./img/advantages/money.svg" alt="" /></div>
+              <div class="advantages__text">Приятные цены</div>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__item-img"><img src="./img/advantages/connection.svg" alt="" /></div>
+              <div class="advantages__text">Прямая связь с водителем</div>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__item-img"><img src="./img/advantages/payment-methods.svg" alt="" /></div>
+              <div class="advantages__text">Разные способы оплаты</div>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__item-img"><img src="./img/advantages/two-car.svg" alt="" /></div>
+              <div class="advantages__text">Комфортные автомобили</div>
+            </div>
+          </div>
+        </div>
+        <div class="advantages__line" style="background: url(./img/advantages/taxi-line.svg)"></div>
+      </section>
+      <section class="download" id="download">
+        <div class="container">
+          <h2 class="download__title">
+            <span class="color-text">З</span>аказывайте <span class="color-text">Т</span>акси в
+            <span class="color-text">П</span>риложении
+          </h2>
+          <div class="download__wrapper">
+            <div class="download__item">
+              <div class="download__item-img"><img src="./img/download/success.svg" alt="" /></div>
+              <div class="download__item-content">
+                <p><span class="color-text">В</span>ы сразу увидите цену и время подачи.</p>
+                <p>Ещё до того, как сделаете заказ</p>
+              </div>
+            </div>
+            <div class="download__item">
+              <div class="download__item-img"><img src="./img/download/success.svg" alt="" /></div>
+              <div class="download__item-content">
+                <p><span class="color-text">К</span>арта покажет, где едет ваш автомобиль</p>
+                <p>Или где вас ждёт водитель</p>
+              </div>
+            </div>
+            <div class="download__item">
+              <div class="download__item-img"><img src="./img/download/success.svg" alt="" /></div>
+              <div class="download__item-content">
+                <p><span class="color-text">М</span>ожно платить картой или наличными</p>
+                <p>Или поменять оплату во время поездки</p>
+              </div>
+            </div>
+            <div class="download__item">
+              <div class="download__item-img"><img src="./img/download/success.svg" alt="" /></div>
+              <div class="download__item-content">
+                <p><span class="color-text">З</span>аказывайте поездки с несколькими адресами</p>
+                <p>И добавляйте их в избранные</p>
+              </div>
+            </div>
+            <div class="download__item">
+              <div class="download__item-img"><img src="./img/download/success.svg" alt="" /></div>
+              <div class="download__item-content">
+                <p><span class="color-text">З</span>воните водителю прямо из приложения.</p>
+                <p>Если нужно о чём-то договориться</p>
+              </div>
+            </div>
+            <div class="download__item">
+              <div class="download__item-img"><img src="./img/download/success.svg" alt="" /></div>
+              <div class="download__item-content">
+                <p><span class="color-text">С</span>тавьте оценки</p>
+                <p>Так нам будет проще стать лучше</p>
+              </div>
+            </div>
+          </div>
+          <div class="download__title mb">
+            <span class="color-text">С</span>качать <span class="color-text">п</span>риложение
+          </div>
+          <div class="download__inner">
+            <a href="https://play.google.com/store/apps/details?id=com.taxsee.taxikapriz" class="download__inner-img"
+              ><img src="./img/download/google-play.png" alt=""
+            /></a>
+            <div class="download__inner-qr"><img src="./img/download/qr-code-google.png" alt="" /></div>
+            <div class="download__inner-text"><span class="color-text">A</span>ndroid</div>
+          </div>
+          <div class="download__inner">
+            <div class="download__inner-text"><span class="color-text">I</span>OS</div>
+            <div class="download__inner-qr"><img src="./img/download/qr-code-appStore.png" alt="" /></div>
+            <a href="https://apps.apple.com/ru/app/taxsee-заказ-такси/id824134593" class="download__inner-img"
+              ><img src="./img/download/App-Store.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+      <section class="about" style="background-image: url(./img/about/about-bg.png)" id="about">
+        <div class="container">
+          <h2 class="about__title"><span class="color-text">Т</span>акси <span class="color-text">К</span>априз</h2>
+          <div class="about__subtitle"><span class="color-text">Н</span>едорогое такси для дорогих клиентов.</div>
+          <div class="about__wrapper">
+            <div class="about__content">
+              <p>
+                <span class="color-text">П</span>редоставляем лучший сервис заказа такси в г.Валуйки. Большой парк
+                автомобилей и профессиональные водители отвезут Вас в любую точку России.
+              </p>
+              <p><span class="color-text">С</span>качайте наше приложение и заказывайте такси без звонка оператору.</p>
+              <a href="tel:+74723625111" class="about__order-btn">Заказать</a>
+            </div>
+            <div class="about__item-wrapper">
+              <div class="about__item-inner">
+                <div class="about__item">
+                  <div class="about__img"><img src="./img/about/taxi-car.svg" alt="" /></div>
+                  <div class="about__text">заказ такси</div>
+                </div>
+                <div class="about__item">
+                  <div class="about__img"><img src="./img/about/driver.svg" alt="" /></div>
+                  <div class="about__text">трезвый водитель</div>
+                </div>
+              </div>
+              <div class="about__item-inner">
+                <div class="about__item">
+                  <div class="about__img"><img src="./img/about/trucking.svg" alt="" /></div>
+                  <div class="about__text">грузо-перевозки</div>
+                </div>
+                <div class="about__item">
+                  <div class="about__img"><img src="./img/about/dlivery.svg" alt="" /></div>
+                  <div class="about__text">доставка</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="about__order-btn order-btn-mobile">Заказать</a>
+        </div>
+      </section>
+      <section class="delivery">
+        <div class="container">
+          <h2 class="delivery__title"><span class="color-text">Д</span>оставка</h2>
+          <div class="delivery__wrapper">
+            <div class="delivery__inner-img">
+              <div class="delivery__item"><img src="./img/delivery/burger.png" alt="" /></div>
+              <div class="delivery__item"><img src="./img/delivery/shaurma.png" alt="" /></div>
+              <div class="delivery__item"><img src="./img/delivery/gazirovka.png" alt="" /></div>
+              <div class="delivery__item"><img src="./img/delivery/pizza.png" alt="" /></div>
+            </div>
+            <div class="delivery__inner-content">
+              <div class="delivery__subtitle"><span class="color-text">С</span>ервис заказа такси</div>
+              <h2 class="delivery__content-title">"<span class="color-text">К</span>априз"</h2>
+              <div class="delivery__content-text">
+                <p>
+                  Наш сервис предоставляет услуги доставки, продуктов питания, медикаментов, напитков в пределах города
+                  и района, а так же по межгороду.
+                </p>
+                <p>Так же осуществляем грузоперевозки малогабаритных грузов в пределах города и района.</p>
+              </div>
+              <a href="tel:+79045323244" class="delivery__order-btn">Заказать доставку</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="reviews" style="background-color: #000" id="reviews">
+        <div class="reviews__img-top-left"><img src="./img/reviews/top-left.svg" alt="" /></div>
+        <div class="reviews__img-bottom-left"><img src="./img/reviews/bottom-left.svg" alt="" /></div>
+        <div class="reviews__img-top-right"><img src="./img/reviews/top-right.svg" alt="" /></div>
+        <div class="reviews__img-bottom-right"><img src="./img/reviews/bottom-right.svg" alt="" /></div>
+        <div class="container">
+          <div class="reviews__title"><span class="color-text">О</span>тзывы</div>
+          <div class="slider">
+            <div class="owl-carousel">
+              <div class="slider__item">
+                <div class="slider__item-wrapper">
+                  <div class="slider__circle"><img src="./img/reviews/angel.png" alt="" /></div>
+                  <div class="slider__item-inner">
+                    <div class="slider__item-title"><span class="color-text">А</span>нжела</div>
+                    <div class="slider__item-subtitle"><span class="color-text">26</span> лет дизайнер</div>
+                  </div>
+                </div>
+                <div class="slider__item-content">
+                  <p>
+                    <span class="color-text">И</span>ногда приходится заказывать такси, и для удобства закачала себе их
+                    приложение. Теперь не нужно висеть на телефоне, разговаривать с диспетчером, все сама выбрала, очень
+                    удобно.
+                  </p>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="slider__item-wrapper">
+                  <div class="slider__circle"><img src="./img/reviews/vikki.png" alt="" /></div>
+                  <div class="slider__item-inner">
+                    <div class="slider__item-title"><span class="color-text">В</span>иктория</div>
+                    <div class="slider__item-subtitle"><span class="color-text">30</span> лет менеджер</div>
+                  </div>
+                </div>
+                <div class="slider__item-content">
+                  <p>
+                    <span class="color-text">У</span>же неоднократно заказывали такси в вашей фирме, в том числе через
+                    телефон, всё работает отлично, машины приезжают вовремя, спасибо вам большое за работу.
+                    <span class="color-text">Цены лучшие!</span>
+                  </p>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="slider__item-wrapper">
+                  <div class="slider__circle"><img src="./img/reviews/julia-2.png" alt="" /></div>
+                  <div class="slider__item-inner">
+                    <div class="slider__item-title"><span class="color-text">Ю</span>лия</div>
+                    <div class="slider__item-subtitle"><span class="color-text">35</span> лет домохозяйка</div>
+                  </div>
+                </div>
+                <div class="slider__item-content">
+                  <p>
+                    <span class="color-text">П</span>риятно, что не накрутили за срочность, а просто быстро довезли до
+                    места. Все очень хорошо. Точно и вежливо.
+                  </p>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="slider__item-wrapper">
+                  <div class="slider__circle"><img src="./img/reviews/julia.png" alt="" /></div>
+                  <div class="slider__item-inner">
+                    <div class="slider__item-title"><span class="color-text">Ю</span>лия</div>
+                    <div class="slider__item-subtitle"><span class="color-text">25</span> лет секретарь</div>
+                  </div>
+                </div>
+                <div class="slider__item-content">
+                  <p>
+                    <span class="color-text">О</span>тличнo paбoтaют и мaшины peaльнo ecть xopoшиe. Вoдитeли тoжe oчeнь
+                    вeжливыe, нe гoняют, вeзут мягкo и ocтopoжнo. Вce пapтнepы oчeнь xвaлят, пpocят дaть нoмep и
+                    нaзвaниe cлужбы чтoбы иx зaкaзывaть.
+                  </p>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="slider__item-wrapper">
+                  <div class="slider__circle"><img src="./img/reviews/ann.png" alt="" /></div>
+                  <div class="slider__item-inner">
+                    <div class="slider__item-title"><span class="color-text">А</span>настасия</div>
+                    <div class="slider__item-subtitle"><span class="color-text">28</span> лет предприниматель</div>
+                  </div>
+                </div>
+                <div class="slider__item-content">
+                  <p>
+                    <span class="color-text">З</span>амечательное такси! Машина пришла быстро, цена приятно удивила,
+                    вежливый и внимательный водитель. Спасибо!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button class="slider__btn-prev"><img src="./img/reviews/arrow-prev.svg" alt="" /></button>
+            <button class="slider__btn-next"><img src="./img/reviews/arrow-next.svg" alt="" /></button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Футер -->
+    <footer class="footer" style="background-image: url(./img/footer/footer-bg.png)" id="contact">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__inner">
+            <div class="footer__logo-wrapper">
+              <div class="footer__logo-img"><img src="./img/footer/none-taxi.svg" alt="" /></div>
+              <div class="footer__logo-inner">
+                <div class="footer__logo-title"><span class="color-text">К</span>априз</div>
+                <div class="footer__logo-subtitle">
+                  <span class="color-text">с</span>ервис <span class="color-text">з</span>аказа
+                  <span class="color-text">т</span>акси
+                </div>
+              </div>
+            </div>
+            <div class="footer__contact">
+              <p><span class="color-text">К</span>онтакты:</p>
+              <span class="color-text">Б</span>елгородская обл.<br />г<span class="span color-text">В</span>алуйки
+              ул.Щорса
+            </div>
+            <div class="footer__contact-phone">
+              <a href="tel:+79102284088" class="footer__contact-inner"
+                ><img src="./img/footer/phone.svg" alt="" class="footer__contact-img" /> +7(910)228-4088 </a
+              ><a href="tel:+79205765202" class="footer__contact-inner"
+                ><img src="./img/footer/phone.svg" alt="" class="footer__contact-img" /> +7(920)576-5202 </a
+              ><a href="tel:+7950710-0500" class="footer__contact-inner"
+                ><img src="./img/footer/phone.svg" alt="" class="footer__contact-img" /> +7(950)710-0500 </a
+              ><a href="tel:+79051723736" class="footer__contact-inner"
+                ><img src="./img/footer/phone.svg" alt="" class="footer__contact-img" /> +7(905)172-3736</a
+              >
+            </div>
+          </div>
+          <form action="#" class="form order-form footer-form">
+            <h2 class="form__title"><span class="color-text">З</span>аказать <span class="color-text">Т</span>акси</h2>
+            <input type="text" class="form-input" name="departure" id="departure " placeholder="Пункт отправления" />
+            <input type="text" class="form-input" name="destination" id="destination " placeholder="Пункт назначения" />
+            <input
+              type="text"
+              class="form-input"
+              name="number-people"
+              id="number-people"
+              placeholder="Кол-во пассажиров"
+            />
+            <input type="text" class="form-input form-area" name="message" id="message" placeholder="Комментарий" />
+            <input type="text" class="form-input" name="phone" id="phone" placeholder="Телефон" />
+            <button class="form-btn">заказать</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <!-- modal window -->
+    <div class="modal modal-success">
+      <div class="modal__img"><img src="./img/success.svg" alt="" /></div>
+      <div class="modal__title"><span class="color-text">С</span>пасибо за <span class="color-text">з</span>аявку</div>
+      <div class="modal__subtitle">Водитель свяжется с Вами в течении <span class="color-text">10-ти</span> минут.</div>
+    </div>
+    <!-- JS-Скрипты -->
+    <script src="./js/libs/jquery-3.6.1.min.js"></script>
+    <script src="./js/libs/owl.carousel.min.js"></script>
+    <script src="./js/libs/jquery.validate.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
